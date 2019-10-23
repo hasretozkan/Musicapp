@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Çukur Dizi Müzikleri",
+    "description": "Çukur dizisiniz tüm müzikleri.",
+    "slug": "cukur-dizi-muzikleri",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.fivepreteam.cukurapp",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Daha iyi hizmet verebilmemiz için kameranıza ihtiyacımız var? Erişim izni istiyoruz.",
+        "NSLocationWhenInUseUsageDescription": "Daha iyi hizmet verebilmemiz için konumunuza ihtiyacımız var? Erişim izni istiyoruz.",
+        "NSLocationAlwaysUsageDescription": "Daha iyi hizmet verebilmemiz için konumunuza ihtiyacımız var? Erişim izni istiyoruz. ",
+        "NSPhotoLibraryUsageDescription": "Daha iyi hizmet verebilmemiz için galerinize ihtiyacımız var? Erişim izni istiyoruz."
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.fivepreteam.cukurapp"
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#E5E500",
+      "androidMode": "default"
+    }
+  }
+}
